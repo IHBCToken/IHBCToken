@@ -86,9 +86,9 @@ contract EIP20Interface {
 }
 
 contract HBCTOKEN is EIP20Interface,owned,SafeMath{
-	//// Constant token specific fields
-	string public constant name ="HBCToken";
-	string public constant symbol = "IHBC";
+    //// Constant token specific fields
+    string public constant name ="HBCToken";
+    string public constant symbol = "IHBC";
     uint public constant decimals = 18;
     string  public version  = 'v0.1';
     uint public constant initialSupply = 300000000;
